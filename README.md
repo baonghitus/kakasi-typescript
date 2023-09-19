@@ -1,13 +1,25 @@
 # kakasi typescript
 Kakasi Japanese Transliteration for Node.js
 
+## custom from
+```bash
+git clone https://github.com/loretoparisi/kakasi.js.git
+```
+
 ## How to install
 ```bash
 git clone https://github.com/baonghitus/kakasi-typescript.git
 ```
-## custom from
-```bash
-git clone https://github.com/loretoparisi/kakasi.js.git 
+
+## run examples
+```
+npm install
+
+npm install -g ts-node
+
+cd examples
+
+ts-node transliterate.ts
 ```
 
 ## How to use kakasi.js
