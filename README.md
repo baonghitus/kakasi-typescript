@@ -11,7 +11,7 @@ git clone https://github.com/loretoparisi/kakasi.js.git
 git clone https://github.com/baonghitus/kakasi-typescript.git
 ```
 
-## run examples
+## Run examples
 ```
 npm install
 
@@ -22,11 +22,11 @@ cd examples
 ts-node transliterate.ts
 ```
 
-## How to use kakasi.js
+## How to use kakasi typescript
 ### Transliterate
 To transliterate a sentence use the `transliterate` api.
 ```typescript
-var kk = new Kakasi();
+const kk = new Kakasi();
 kk.transliterate( "退屈であくびばっかしていた毎日" )
 .then(results => {
     console.log("----------\n%s\n----------",results);
