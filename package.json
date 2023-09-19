@@ -1,0 +1,35 @@
+{
+    "name": "kakasi-typescript",
+    "description": "custom Kakasi from kakasi.js of Loreto Parisi",
+    "version": "1.0.0",
+    "author": {
+        "name": "BIT",
+        "email": "baongh.it.us@gmail.com"
+    },
+    "contributors": [],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:loretoparisi/kakasi.js.git"
+    },
+    "bugs": {
+        "url": "https://github.com/loretoparisi/kakasi.js/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT"
+        }
+    ],
+    "main": "lib/index",
+    "engines": {
+        "node": "*"
+    },
+    "scripts": {},
+    "devDependencies": {
+        "@types/node": "^20.6.2",
+        "typescript": "^5.2.2"
+    },
+    "keywords": [],
+    "volta": {
+        "node": "18.18.0"
+    }
+}
